@@ -1,7 +1,7 @@
 ![](img/banner.jpg)
 
 # Paw-Connect TC2030
-An alternative PCB ~~foot~~ pawprint for the TC2030 pogo pin programming cable in the shape of a cute little paw.
+An alternative KiCad PCB ~~foot~~ pawprint for the TC2030 pogo pin programming cable in the shape of a cute little paw.
 
 ## Features
 ### Pros
@@ -14,20 +14,23 @@ An alternative PCB ~~foot~~ pawprint for the TC2030 pogo pin programming cable i
 - Paws! 🐾
 
 ### Cons
-- Pin 4 is pretty impossible to fan out without a via, which might compromise the aesthetic / durability a bit
+- Pin 4 is pretty impossible to fan out without a via in rev. A, which might compromise the aesthetic / durability a bit
     - Best to place the via a bit to the left, so it's further away from the landing pin
 - Not optimized for manufacturers with high tolerances
 - **Pawsome Distraction:** Paws are undeniably attention grabbing, but what if your PCB is meant to blend into the background? This pawprint might steal the spotlight.
 - **Resistance is Futile:** Trying to resist this  pawprint is like trying to resist a warm, fuzzy cuddle. Don't fight it, let the pawsome vibes flow through your circuits!
 
 ### Disclaimer
-- Currently, it was only tested mechanically, not electrically. Use at your own risk.
+- Currently, rev. A was only tested mechanically, not electrically. Rev. B is currently untested. Use at your own risk.
 - The hole pattern is rotated by 27.5° (that's how the pads aligned the best)
 
 ### Pawprint
-![Pawprint with via](img/footprint.jpg) | ![Overlayed default TC2030 footprint](img/footprint_overlay.jpg) | ![3D view](img/3d.jpg) | ![In the wild](img/wild.jpg)
-----------------------------------------|------------------------------------------------------------------|------------------------|-----------------------------
-Pawprint with via                       | Overlayed default TC2030 footprint                               | 3D view                | In the wild
+| Rev. A     | ![Pawprint with via](img/footprint.jpg)      | ![Overlayed default TC2030 footprint](img/footprint_overlay.jpg)      | ![3D view](img/3d.jpg)      | ![In the wild](img/wild.jpg) |
+| ---------- | -------------------------------------------- | --------------------------------------------------------------------- | --------------------------- | ---------------------------- |
+| **Rev. B** | ![Pawprint with via](img/revB_footprint.jpg) | ![Overlayed default TC2030 footprint](img/revB_footprint_overlay.jpg) | ![3D view](img/revB_3d.jpg) |                              |
+|            | Pawprint                                     | Overlayed default TC2030 footprint                                    | 3D view                     | In the wild                  |
+
+As pin 4 is hard to route, I tried another design approach. Rev. B is not tested yet, but should™ work.
 
 ### Landing Pattern
 Good enough™
