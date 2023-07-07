@@ -39,6 +39,15 @@ Good enough™
 ---------------------------|----------------------------|----------------------------------------------
 Landing on the lower side  | Landing on the upper side  | Imprints left after connecting multiple times
 
+### Decorative Pawprints
+There are also a handful of decorative pawprint variants included, that you can use to adorn your PCB.
+
+They are on the silkscreen layer by default, but you can simply change it by selecting the placed prints and do:  
+- Edit > Edit Text and Graphic Properties >  
+  - Only include selected items
+  - Footprint graphic items
+  - Set to specified values > Layer
+
 
 ## Projects featuring Paw-Connect
 - [SSD1303_Breakout](https://github.com/LeoDJ/SSD1303_Breakout) (just a first mechanical test)
