@@ -50,7 +50,9 @@ They are on the silkscreen layer by default, but you can simply change it by sel
 
 
 ## Projects featuring Paw-Connect
-- [SSD1303_Breakout](https://github.com/LeoDJ/SSD1303_Breakout) (just a first mechanical test)
+- [dipstickRV](https://github.com/mothdotmonster/dipstickRV) - adorably small CH32V003 devboard
+- [DIPSTICKpico](https://github.com/mothdotmonster/dipstick-pico) - a smaller RP2040 board with USB-C 
+- [SSD1303_Breakout](https://github.com/LeoDJ/SSD1303_Breakout) - (just a first mechanical test)
 - 
 - *This list is incomplete; you can help by expanding it.*
 
